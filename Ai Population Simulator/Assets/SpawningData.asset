@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f7e2493f10ac1c41b9b808273d72486, type: 3}
+  m_Name: SpawningData
+  m_EditorClassIdentifier: 
+  SpawningBounds: {x: 45, y: 60}
+  MapOffset: {x: 0, y: 0}
+  Scale: 8
+  discontentmentProgressSpeed: 10
+  discontentmentDamageThreashold: 50
+  agentSpeedMultiplyer: 2
+  agentRotationMultiplyer: 1.5
+  SenseUpdateSpeed: 0.1
+  PreyFleeRadius: 1
+  visionRange: 3
+  PreyVisionFOV: 110
+  PreditorVisionFOV: 30
+  CamoflaugeVisionThreashold: 0.7
+  hearingRange: 4
+  hearingThreashold: 0.211
+  smellRange: 3
+  SpawnChance: 0f000000030000000a0000000a0000000a000000
+  windTexture: {fileID: 2800000, guid: 09ffdf80d8267c248ac4a91b75717f82, type: 3}
+  WindStrength: 3
+  WindSpeed: 1
